@@ -48,6 +48,7 @@ export default function Carousel({
 			<div className="embla__buttons dark">
 				<button
 					type="button"
+					aria-label="Prev"
 					className="embla__prev"
 					onClick={scrollPrev}
 					style={{ borderColor: color }}
@@ -56,6 +57,7 @@ export default function Carousel({
 				</button>
 				<button
 					type="button"
+					aria-label="Next"
 					className="embla__next"
 					onClick={scrollNext}
 					style={{ borderColor: color }}
