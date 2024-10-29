@@ -46,4 +46,21 @@ The deployment of this project was carried out at Vercel and can be accessed on 
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Roboto](https://fonts.google.com/specimen/Roboto).
 
-### OpenGraph Image
+### URL sharing
+
+To share the URL on social media, I created art based on the proposed concept.
+
+![Share image](https://buzzvel-dev-test.vercel.app/_next/static/media/opengraph.05f2ea3f.jpg)
+
+Just share the URL `https://buzzvel-dev-test.vercel.app` and the image will be loaded with other site informations.
+
+### Favicon
+
+Also using the concept provided, I created a Favicon based on the fictional logo.
+
+![Favicon](https://buzzvel-dev-test.vercel.app/favicon.ico)
+
+### Mobile Menu
+
+In the concept provided in Figma, a menu for mobile devices was not used, so with the intention of improving the user experience, I added a mobile menu.
+
