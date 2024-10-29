@@ -64,3 +64,4 @@ Also using the concept provided, I created a Favicon based on the fictional logo
 
 In the concept provided in Figma, a menu for mobile devices was not used, so with the intention of improving the user experience, I added a mobile menu.
 
+![mobile_demonstration](https://github.com/user-attachments/assets/8a422fb2-08a8-444d-b1d7-4779a9101745)
