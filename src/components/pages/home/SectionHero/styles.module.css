@@ -1,0 +1,13 @@
+.section {
+	position: relative;
+}
+
+.viewLimit {
+	padding: var(--size-136) 0 var(--size-80);
+}
+
+@media (max-width: 440px) {
+	.viewLimit {
+		padding-bottom: var(--size-48);
+	}
+}

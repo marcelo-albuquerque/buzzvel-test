@@ -1,0 +1,129 @@
+.section {
+	background-color: var(--color_french-violet);
+
+	position: relative;
+	overflow: hidden;
+}
+
+.viewLimit {
+	position: relative;
+	padding: var(--size-80) 0;
+}
+
+.ellipseShape {
+	position: absolute;
+	top: -35%;
+	right: -5%;
+	z-index: 0;
+}
+
+.infoSectionAndButtonGroup {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	max-width: var(--size-1280);
+}
+
+.infoSectionAndButtonGroup .infoSection {
+	max-width: 55.875rem;
+}
+
+.infoSectionAndButtonGroup .buttonGroup {
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: -10rem;
+	margin-left: 15rem;
+	padding-top: var(--size-40);
+}
+
+.infoSectionAndButtonGroup .buttonGroup .button {
+	margin-bottom: var(--size-16);
+}
+
+.infoSectionAndButtonGroup .buttonGroup p {
+	font-size: var(--size-18);
+	line-height: 1.6;
+}
+
+.macbookIllustration {
+	display: block;
+	margin: var(--size-80) auto 0;
+	max-width: 100%;
+	height: auto;
+
+	filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.07))
+		drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.25));
+}
+
+@media (max-width: 1770px) {
+	.infoSectionAndButtonGroup .buttonGroup {
+		margin-left: var(--size-80);
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 900px) {
+	.ellipseShape {
+		top: auto;
+		right: auto;
+		bottom: -35%;
+		left: -5%;
+		scale: 0.8;
+	}
+
+	.infoSectionAndButtonGroup {
+		display: grid;
+	}
+
+	.infoSectionAndButtonGroup .buttonGroup {
+		margin-top: var(--size-16);
+		margin-left: 0;
+		padding-top: 0;
+		width: fit-content;
+	}
+}
+
+@media (max-width: 680px) {
+	.section {
+		background-color: var(--color_tekhelet);
+	}
+
+	.ellipseShape {
+		bottom: -50%;
+		left: -50%;
+	}
+
+	.viewLimit {
+		padding: var(--size-48) 0;
+	}
+
+	.infoSectionAndButtonGroup .buttonGroup {
+		width: auto;
+	}
+
+	.infoSectionAndButtonGroup .buttonGroup p {
+		font-size: var(--size-16);
+		line-height: 1.4;
+	}
+
+	.macbookIllustration {
+		margin: var(--size-64) auto 0;
+	}
+}
+
+@media (max-width: 440px) {
+	.ellipseShape {
+		bottom: -60%;
+		left: -60%;
+	}
+}
+
+@media (max-width: 400px) {
+	.ellipseShape {
+		bottom: -60%;
+		left: -100%;
+		scale: 0.42;
+	}
+}

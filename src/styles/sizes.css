@@ -1,0 +1,33 @@
+:root {
+	--size-1: 0.0625rem;
+	--size-2: 0.125rem;
+	--size-4: 0.25rem;
+	--size-8: 0.5rem;
+	--size-10: 0.625rem;
+	--size-12: 0.75rem;
+	--size-16: 1rem;
+	--size-18: 1.125rem;
+	--size-20: 1.25rem;
+	--size-24: 1.5rem;
+	--size-32: 2rem;
+	--size-38: 2.375rem;
+	--size-40: 2.5rem;
+	--size-48: 3rem;
+	--size-56: 3.5rem;
+	--size-64: 4rem;
+	--size-72: 4.5rem;
+	--size-80: 5rem;
+	--size-128: 8rem;
+	--size-136: 8.5rem;
+	--size-160: 10rem;
+	--size-256: 16rem;
+	--size-300: 18.75rem;
+	--size-340: 21.25rem;
+	--size-364: 22.75rem;
+	--size-400: 25rem;
+	--size-512: 32rem;
+	--size-600: 37.5rem;
+	--size-900: 56.25rem;
+	--size-1280: 80rem;
+	--size-1760: 110rem;
+}

@@ -1,0 +1,31 @@
+.card {
+	display: grid;
+	align-content: flex-start;
+}
+
+.iconContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: var(--size-64);
+	height: var(--size-64);
+
+	border: var(--size-1) solid rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+}
+
+.title {
+	margin: var(--size-16) 0;
+}
+
+.description {
+	font-size: var(--size-18);
+	line-height: 1.6;
+}
+
+@media (max-width: 680px) {
+	.description {
+		font-size: var(--size-16);
+		line-height: 1.4;
+	}
+}

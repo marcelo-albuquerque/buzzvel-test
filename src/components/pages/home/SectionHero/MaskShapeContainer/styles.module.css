@@ -1,0 +1,61 @@
+.maskShapeContainer {
+	background-color: #bae6fd;
+	mask-image: url("/assets/shapes/mask.svg");
+	mask-repeat: no-repeat;
+	mask-position: right;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+
+	width: 42.0625rem;
+	height: 43.375rem;
+}
+
+.maskedPhoto {
+	position: absolute;
+	right: -2.5rem;
+	bottom: -3.5rem;
+
+	max-width: initial;
+	max-height: initial;
+	height: 80%;
+	object-fit: contain;
+}
+
+@media (max-width: 1140px) {
+	.maskShapeContainer {
+		mask-size: 80%;
+		mask-position: top right;
+	}
+
+	.maskedPhoto {
+		bottom: -1.25rem;
+	}
+}
+
+@media (max-width: 680px) {
+	.maskShapeContainer {
+		mask-size: 60%;
+	}
+
+	.maskedPhoto {
+		bottom: var(--size-160);
+		right: 0;
+
+		width: 90%;
+	}
+}
+
+@media (max-width: 440px) {
+	.maskShapeContainer {
+		mask-size: 45%;
+	}
+
+	.maskedPhoto {
+		bottom: 14.375rem;
+
+		width: 70%;
+	}
+}

@@ -1,0 +1,20 @@
+:root {
+	--color_white: rgba(255, 255, 255, 1);
+
+	--color_tekhelet: rgba(88, 28, 135, 1);
+	--color_french-violet: rgba(126, 34, 206, 1);
+	--color_medium-slate-blue: rgba(162, 82, 238, 1);
+	--color_bice-blue: rgba(3, 105, 161, 1);
+	--color_russet: rgba(120, 53, 15, 1);
+	--color_ochre: rgba(217, 119, 6, 1);
+	--color_gamboge: rgba(245, 158, 11, 1);
+	--color_amber: rgba(251, 191, 36, 1);
+	--color_mustard: rgba(252, 211, 77, 1);
+
+	--color_default: rgba(15, 23, 42, 1);
+	--color_paynes-gray: rgba(71, 85, 105, 1);
+}
+
+:root .dark {
+	--color_default: var(--color_white);
+}

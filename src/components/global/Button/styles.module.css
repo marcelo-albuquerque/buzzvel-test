@@ -1,0 +1,73 @@
+.button {
+	background: none;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: var(--size-20) var(--size-24) var(--size-20) var(--size-48);
+	width: fit-content;
+	height: var(--size-64);
+
+	font-size: var(--size-24);
+	font-weight: 700;
+	line-height: 1;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+
+	border-width: var(--size-2);
+	border-style: solid;
+	border-radius: var(--size-32);
+
+	transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+.button:hover,
+.button:focus {
+	box-shadow: 0 var(--size-4) var(--size-4) rgba(0, 0, 0, 0.25);
+}
+
+.button.color_tekhelet {
+	color: var(--color_tekhelet);
+	border-color: var(--color_tekhelet);
+}
+.button.color_tekhelet:hover,
+.button.color_tekhelet:focus {
+	background-color: var(--color_tekhelet);
+	color: var(--color_mustard);
+}
+
+.button.color_mustard {
+	color: var(--color_mustard);
+	border-color: var(--color_mustard);
+}
+.button.color_mustard:hover,
+.button.color_mustard:focus {
+	background-color: var(--color_mustard);
+	color: var(--color_russet);
+}
+
+.iconContainer {
+	display: flex;
+	margin-left: var(--size-24);
+	width: var(--size-24);
+	height: var(--size-24);
+}
+
+.iconContainer svg {
+	transition: fill 0.3s;
+}
+
+.button.color_tekhelet .iconContainer svg {
+	fill: var(--color_tekhelet);
+}
+.button.color_tekhelet:hover .iconContainer svg,
+.button.color_tekhelet:focus .iconContainer svg {
+	fill: var(--color_mustard);
+}
+
+.button.color_mustard .iconContainer svg {
+	fill: var(--color_mustard);
+}
+.button.color_mustard:hover .iconContainer svg,
+.button.color_mustard:focus .iconContainer svg {
+	fill: var(--color_russet);
+}

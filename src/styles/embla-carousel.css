@@ -1,0 +1,48 @@
+.embla {
+	overflow: hidden;
+	margin-top: -1.5rem;
+	padding-top: var(--size-24);
+}
+
+.embla__viewport {
+	cursor: grab;
+}
+
+.embla__container {
+	display: flex;
+}
+
+.embla__slide {
+	min-width: 0;
+}
+
+.embla__buttons {
+	display: flex;
+	margin-top: var(--size-80);
+}
+
+.embla__buttons button {
+	background: none;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: var(--size-48);
+	height: var(--size-48);
+
+	cursor: pointer;
+
+	border: var(--size-2) solid transparent;
+	border-radius: 50%;
+}
+
+.embla__buttons button:first-child {
+	margin-right: var(--size-24);
+}
+
+@media (max-width: 680px) {
+	.embla__buttons {
+		margin-top: var(--size-64);
+	}
+}

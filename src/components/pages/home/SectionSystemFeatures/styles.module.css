@@ -1,0 +1,63 @@
+.section {
+	position: relative;
+	overflow: hidden;
+}
+
+.viewLimit {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	align-items: center;
+	gap: var(--size-160);
+	padding: var(--size-80) 0;
+}
+
+.rectangleRoundedShape {
+	position: absolute;
+	top: 0;
+	right: -35rem;
+	z-index: -1;
+}
+
+.mobileIllustration1 {
+	height: auto;
+}
+
+.cardsContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: var(--size-48);
+	margin-top: var(--size-48);
+}
+
+@media (max-width: 1140px) {
+	.viewLimit {
+		grid-template-columns: 1fr;
+		gap: var(--size-64);
+	}
+
+	.rectangleRoundedShape {
+		top: 52rem;
+		right: 0;
+		scale: 0.8;
+	}
+}
+
+@media (max-width: 680px) {
+	.viewLimit {
+		padding: var(--size-48) 0;
+	}
+
+	.rectangleRoundedShape {
+		top: 36rem;
+		right: -10rem;
+		scale: 0.6;
+	}
+}
+
+@media (max-width: 440px) {
+	.rectangleRoundedShape {
+		top: 40rem;
+		right: -32rem;
+		scale: 0.52;
+	}
+}

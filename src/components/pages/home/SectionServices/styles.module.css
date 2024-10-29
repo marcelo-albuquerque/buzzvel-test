@@ -1,0 +1,70 @@
+.section {
+	position: relative;
+	overflow: hidden;
+}
+
+.viewLimit {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	gap: var(--size-32);
+	padding: var(--size-80) 0;
+}
+
+.rectangleRoundedShape {
+	position: absolute;
+	top: 0;
+	left: -35rem;
+	z-index: -1;
+}
+
+.mobileIllustration1 {
+	height: auto;
+}
+
+.cardsContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: var(--size-48);
+	margin-top: var(--size-48);
+}
+
+@media (max-width: 1140px) {
+	.viewLimit {
+		grid-template-columns: 1fr;
+		gap: var(--size-64);
+	}
+
+	.rectangleRoundedShape {
+		top: 52rem;
+		left: -20rem;
+		scale: 0.8;
+	}
+
+	.mobileIllustration1 {
+		order: 1;
+	}
+
+	.infoSectionAndCardsContainer {
+		order: 0;
+	}
+}
+
+@media (max-width: 680px) {
+	.viewLimit {
+		padding: var(--size-48) 0;
+	}
+
+	.rectangleRoundedShape {
+		top: 36rem;
+		scale: 0.6;
+	}
+}
+
+@media (max-width: 440px) {
+	.rectangleRoundedShape {
+		top: 40rem;
+		left: -32rem;
+		scale: 0.52;
+	}
+}

@@ -1,0 +1,19 @@
+/* My personal reset */
+
+/* 
+  1. Zero margin and padding to facilitate approach on design
+  2. Disables synthetic bolded and obliqued characters */
+* {
+	/* 1 */
+	margin: 0;
+	padding: 0;
+
+	/* 2 */
+	font-synthesis: none !important;
+}
+
+/* Set anti-aliasing when fonts are rendered - Next.js approach */
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,30 @@
+.avatar {
+	display: flex;
+	align-items: center;
+	width: fit-content;
+	height: fit-content;
+
+	border-radius: 50%;
+}
+
+.photo {
+	margin-right: var(--size-16);
+	object-fit: cover;
+
+	border-radius: 50%;
+}
+
+.infoGroup {
+	flex-shrink: 0;
+}
+
+.name {
+	font-size: var(--size-18);
+	line-height: 1.6;
+}
+
+.description {
+	font-size: var(--size-16);
+	line-height: 1.4;
+	color: var(--color_paynes-gray);
+}
