@@ -78,3 +78,9 @@ https://github.com/user-attachments/assets/dbf9a9ec-4afc-4092-a709-c059f06a1118
 To make the scroll smooth I used the [Lenis](https://lenis.darkroom.engineering/) library
 
 https://github.com/user-attachments/assets/8d416868-6f04-4b96-bde1-05eb7139ccca
+
+### Carousel
+
+For the card Carousel, I used the [Embla Carousel](https://www.embla-carousel.com/) library.
+
+https://github.com/user-attachments/assets/b9a69b50-e617-4df8-ac4a-e4c74956ccb1
