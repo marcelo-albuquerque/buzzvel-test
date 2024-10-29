@@ -84,3 +84,11 @@ https://github.com/user-attachments/assets/8d416868-6f04-4b96-bde1-05eb7139ccca
 For the card Carousel, I used the [Embla Carousel](https://www.embla-carousel.com/) library.
 
 https://github.com/user-attachments/assets/b9a69b50-e617-4df8-ac4a-e4c74956ccb1
+
+## Final considerations
+
+The design provided in Figma is visibly made for the application of quick tests, as it has a series of flaws that lack cohesion in the concept as a whole.
+
+In any case, I was honored to be able to participate in the test and I hope to be part of the team to contribute my knowledge not only in the area of ​​web development, but also in creating designs that enhance the client's brand.
+
+Thank you very much to the [Buzzvel team](https://buzzvel.com/about).
