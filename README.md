@@ -70,5 +70,11 @@ In the concept provided in Figma, a menu for mobile devices was not used, so wit
 
 Also to improve the user experience, I placed the Header at the top and added an effect as soon as the user starts scrolling the page.
 
-https://github.com/user-attachments/assets/cdc6ef43-3526-4e0b-a8b7-162bf083349a
+https://github.com/user-attachments/assets/dbf9a9ec-4afc-4092-a709-c059f06a1118
 
+
+### Smooth scroll
+
+To make the scroll smooth I used the [Lenis](https://lenis.darkroom.engineering/) library
+
+https://github.com/user-attachments/assets/8d416868-6f04-4b96-bde1-05eb7139ccca
