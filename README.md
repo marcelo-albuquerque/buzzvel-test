@@ -70,20 +70,19 @@ In the concept provided in Figma, a menu for mobile devices was not used, so wit
 
 Also to improve the user experience, I placed the Header at the top and added an effect as soon as the user starts scrolling the page.
 
-https://github.com/user-attachments/assets/dbf9a9ec-4afc-4092-a709-c059f06a1118
-
+![ezgif-3-1c77690fe5](https://github.com/user-attachments/assets/6b377b1d-8bbd-4e90-ad51-128440299dd6)
 
 ### Smooth scroll
 
 To make the scroll smooth I used the [Lenis](https://lenis.darkroom.engineering/) library
 
-https://github.com/user-attachments/assets/8d416868-6f04-4b96-bde1-05eb7139ccca
+![smooth-scroll](https://github.com/user-attachments/assets/4b67a90a-54ce-4059-8ad3-f89401809172)
 
 ### Carousel
 
 For the card Carousel, I used the [Embla Carousel](https://www.embla-carousel.com/) library.
 
-https://github.com/user-attachments/assets/b9a69b50-e617-4df8-ac4a-e4c74956ccb1
+![carousel](https://github.com/user-attachments/assets/455b6aa2-de96-44ce-945c-a26d3ff92918)
 
 ## Final considerations
 
